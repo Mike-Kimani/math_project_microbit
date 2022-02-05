@@ -1,0 +1,10 @@
+basic.forever(function () {
+    basic.showNumber(3)
+    basic.pause(5000)
+    basic.showNumber(2)
+    basic.pause(5000)
+    basic.pause(100)
+    basic.showNumber(3 + 2)
+    music.startMelody(music.builtInMelody(Melodies.Blues), MelodyOptions.OnceInBackground)
+    basic.pause(15000)
+})
